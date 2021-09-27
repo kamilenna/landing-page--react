@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+  }
+
+  @media (min-width: 1442px) and (max-width: 2560px) {
+    .lamp-img3 {
+        right: auto;
+    }
+
+    #nav-produtos ul {
+        margin: 3em 25em;
+    }
+  }
+
+  @media (max-width: 1439px) {
+    header .menu {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .menu-burguer {
+        margin-right: 0;
+        left: 0;
+        margin-left: 1.5em;
+    }
+
+    .one {
+        width: 100%;
+      }
+      
+      .two {
+        width: 100%;
+      }
+
+    .menu-lateral, .menu nav, .menu-icons, .App #back-top {
+        display: none;
+    }
+
+    #logo img {
+        display: flex;
+        justify-content: flex-end;
+        width: 103px;
+        height: 30px;
+    }
+
+    .lamp-img3 {
+        margin-right: 2em;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px){
+    .slide-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lamp-img1 {
+        display: none;
+    }
+
+    .lamp-img2 {
+       position: absolute;
+       top: 0;
+       margin-left: 8em;
+       width: 175px;
+    }
+
+    .lamp-img3 {
+        width: 120px;
+        margin-right: 13em;
+    }
+
+    .slide-info {
+        margin: 18em 1em 0 4em;
+    }
+
+    .slide-info h1 {
+        font-size: 60px;
+    }
+
+    .slide-info p {
+        font-size: 15px;
+    }
+
+    main #section-produtos {
+        margin: 5em auto;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 768px){
+    .slide-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*.lamp-img1, .lamp-img3 {
+        display: none;
+    }*/
+
+    .lamp-img1 {
+        display: none;
+    }
+
+    .lamp-img2 {
+        position: absolute;
+        top: 3em;
+        left: 12em;
+        width: 175px;
+    }
+
+    .lamp-img3 {
+        width: 120px;
+    }
+
+    .slide-info {
+        margin: 18em 1em 0 1em;
+    }
+
+    .slide-info h1 {
+        font-size: 60px;
+    }
+
+    .slide-info p {
+        font-size: 15px;
+    }
+
+    main #section-produtos {
+        margin: 5em auto;
+    }
+  }
+
+@media (max-width: 500px) { 
+    .App {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    /*header .menu {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .menu-burguer {
+        margin-right: 0;
+        left: 0;
+        margin-left: 1.5em;
+    }
+
+    .one {
+        width: 100%;
+      }
+      
+      .two {
+        width: 100%;
+      }
+
+    .menu-lateral, .menu nav, .menu-icons, .App #back-top {
+        display: none;
+    }
+
+    #logo img {
+        display: flex;
+        justify-content: flex-end;
+        width: 103px;
+        height: 30px;
+    }*/
+
+    .slide-section, .ul-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lamp-img1 {
+        width: 85px;
+        height: 149px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -1px;
+        z-index: 0;
+        margin-left: 2em;
+      }
+      
+      .lamp-img2 {
+        width: 120px;
+        height: 227px;
+        margin-right: 0;
+        z-index: 1;
+        top: 0;
+        position: absolute;
+        left: 9.4em;
+        
+      }
+      
+      .lamp-img3 {
+        width: 80px;
+        height: 225px;
+        margin-right: 0.5em;
+        margin-top: -25px;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .slide-info {
+          width: 100%;
+          display: block;
+          margin: auto;
+      }
+
+      .slide-info h1 {
+          font-size: 37px;
+          margin-top: 5em;
+          text-align: center;
+          width: 300px;
+      }
+
+      .slide-info p {
+          font-size: 13px;
+          text-align: left;
+          width: 300px;
+          margin-left: 5px;
+      }
+
+      #nav-produtos ul {
+          margin: auto;
+      }
+
+      main #section-produtos {
+          margin: 5em 1.5em;
+      }
+
+      footer {
+          width: 100vw;
+      }
+
+      #section-footer {
+          height: 90vh;
+          padding: 2em 0;
+      }
+
+      .ul-footer {
+          padding: 2em 1em;
+      }
+
+      .list-links {
+          width: 300px;
+      }
+
+      #menu-footer {
+          height: 20vh;
+          display: flex;
+      }
+
+      .ul-menu {
+          
+        display: flex;
+        flex-direction: column;
+      }
+ }
