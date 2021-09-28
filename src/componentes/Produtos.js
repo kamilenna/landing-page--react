@@ -1,12 +1,5 @@
-
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-/*import Lampada from '../img/home-product-1.jpg'*/
-/*import Rating from '@mui/material/Rating';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea } from '@mui/material';*/
 import CardProduto from "./CardProduto";
 
 

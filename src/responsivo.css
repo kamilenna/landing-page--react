@@ -25,21 +25,51 @@ header {
         justify-content: center;
     }
 
-    .menu-burguer {
-        margin-right: 0;
-        left: 0;
-        margin-left: 1.5em;
+    .menu nav {
+       position: absolute;
+       width: 100%;
+       top: -200px;
+       left: 0px;
+       transition: all 0.5s;
     }
 
-    .one {
+    .menu nav ul{
+        background-color: #FFFFFF;
         width: 100%;
-      }
-      
-      .two {
-        width: 100%;
-      }
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+        right: inherit;
+        margin-right: 0;
+        line-height: unset;
+        padding: 1em 0;
+    }
 
-    .menu-lateral, .menu nav, .menu-icons, .App #back-top {
+    nav ul li .link-menu {
+        border-bottom: 1px solid #B4B4B4;
+    }
+
+    nav ul li .link-menu:hover {
+        color: #B4B4B4;
+        border-bottom: 1px solid #B4B4B4;
+    }
+    
+    .menu-burguer {
+        display: block;
+        position: absolute;
+        left: 2em;
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+
+    }
+
+    .menu-burguer:focus ~ nav {
+        top: 60px;
+    }
+
+    .menu-lateral, .menu-icons, .App #back-top, .menu-modal {
         display: none;
     }
 
@@ -100,10 +130,6 @@ header {
         text-align: center;
     }
 
-    /*.lamp-img1, .lamp-img3 {
-        display: none;
-    }*/
-
     .lamp-img1 {
         display: none;
     }
@@ -145,36 +171,6 @@ header {
         align-items: center;
         justify-content: center;
       }
-
-    /*header .menu {
-        width: 100vw;
-        justify-content: center;
-    }
-
-    .menu-burguer {
-        margin-right: 0;
-        left: 0;
-        margin-left: 1.5em;
-    }
-
-    .one {
-        width: 100%;
-      }
-      
-      .two {
-        width: 100%;
-      }
-
-    .menu-lateral, .menu nav, .menu-icons, .App #back-top {
-        display: none;
-    }
-
-    #logo img {
-        display: flex;
-        justify-content: flex-end;
-        width: 103px;
-        height: 30px;
-    }*/
 
     .slide-section, .ul-footer{
         display: flex;

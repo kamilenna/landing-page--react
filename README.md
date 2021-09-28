@@ -1,3 +1,6 @@
+# Atividade de bases tecnológicas:
+Recriando a página HOME do site [Arredo](https://arredo.qodeinteractive.com/shop-home/?utm_source=pinterest&utm_medium=pin&utm_campaign=select) com React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

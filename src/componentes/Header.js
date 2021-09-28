@@ -4,11 +4,6 @@ import logo from '../img/logo-black.png'
 import iconeDeBusca from '../img/search.png'
 import iconeDeCompras from '../img/bag.png'
 import MenuLateral from './MenuLateral';
-//import PopupState from '@mui/material/PopupState';
-/*import Button from '@mui/material/Button';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';*/
 
 
 function Header() {
@@ -19,6 +14,7 @@ function Header() {
               <div id="logo">
                 <img src={logo} alt="logo da arredo"/>
                 </div>
+                <button className="menu-burguer">&#9776;</button>
                     <nav>
                         <ul>
                             <li><a className="link-menu" href="#">Home</a></li>
